@@ -1,0 +1,230 @@
+/* glowne */
+@font-face {
+    font-family: "proto";
+    src: url(unlisted/ProtoSans54.otf) format("opentype");
+}
+
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#container {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+/* navbar */
+
+.discordnav {
+    font-family: 'Ubuntu', sans-serif;
+    position: fixed;
+    top: 22px;
+    right: 45px;
+    font-size: 32px;
+}
+
+.addnav {
+    font-family: 'Ubuntu', sans-serif;
+    position: fixed;
+    top: 22px;
+    right: 190px;
+    font-size: 32px;
+}
+
+.napis {
+    position: fixed;
+    top: 0;
+    left: 70px;
+    height: 80px;
+}
+
+#navbar {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+/* glowna strona */
+
+.header {
+    font-size: 115px;
+}
+
+.headerdesc {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 360px;
+}
+
+#header {
+    text-align: center;
+    color: #00EAFF;
+    margin-top: 350px;
+}
+
+/* programisci */
+
+#programisci {
+    font-size: 20px;
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.hrprog {
+    width: 180px;
+}
+
+.opis {
+    font-size: 25px;
+    text-align: center;
+}
+
+#headeronas {
+    font-size: 50px;
+    color: white;
+    margin-top: 470px;
+    text-align: center;
+}
+
+.onasimg {
+    float: left;
+    margin-right: 5px;
+    text-align: center;
+}
+
+/* partnerzy */
+
+.partnerzytext {
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 360px;
+}
+
+.header-partnerzy {
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#partnerzy {
+    margin-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.partnerzy::after {
+    content: "";
+    clear: both;
+    display: flex;
+    justify-content: center;
+}
+
+#partner {
+    float: left;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.imgpartnerzy {
+    transition: transform .2s;
+}
+
+.imgpartnerzy:hover {
+    transform: scale(1.1);
+}
+
+/* footer */
+
+#footer {
+    text-align: center;
+    margin-top: 280px;
+    color: #00EAFF;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* buttony */
+
+.buttondcc {
+    background-color: #16161f;
+    margin-top: 35px;
+    border: 2px solid white;
+    color: white;
+    padding: 14px 30px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: transform .2s;
+    font-size: 18px;
+}
+
+.buttondcc:hover {
+    background-color: #00EAFF;
+    margin-top: 35px;
+    border: none;
+    color: white;
+    border: 2px solid #00EAFF;
+    padding: 14px 30px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    transform: scale(1.1);
+}
+
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00EAFF;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: cyan;
+}
+
+
+/* style calych atrybutow */
+
+hr {
+    width: 300px;
+    color: #00EAFF;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    transition: color 0.5s;
+    color: #00EAFF;
+}
+
+body {
+    background-image: url(images/tlo.png);
+    background-attachment: fixed;
+}
